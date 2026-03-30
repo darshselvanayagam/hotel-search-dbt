@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: HOTEL_SEARCH_ANALYTICS
+    schema: RAW
+    tables:
+      - name: hotel_searches

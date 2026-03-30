@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: fct_hotel_searches
+    columns:
+      - name: search_id
+        tests:
+          - not_null
+          - unique
+
+      - name: user_id
+        tests:
+          - not_null
+
+      - name: destination_city
+        tests:
+          - not_null
+
+  - name: agg_daily_searches
+    columns:
+      - name: search_date
+        tests:
+          - not_null
+          - unique
