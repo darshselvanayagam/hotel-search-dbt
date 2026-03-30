@@ -10,8 +10,7 @@ It transforms raw hotel search event data into **clean, structured, and analytic
 
 ## 🧱 Architecture
 
-![Architecture Diagram]
-(docs/architecture.png)
+![Architecture Diagram](docs/architecture.png)
 
 ```
 Raw Data (Snowflake - RAW.HOTEL_SEARCHES)
