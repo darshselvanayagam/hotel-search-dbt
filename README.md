@@ -103,7 +103,7 @@ Implemented using dbt tests:
 
 * `search_id` → **not null, unique**
 * `destination_city` → **not null**
-* `search_date` → **not null, unique**
+* `search_date` → **not null**
 
 Run tests:
 
